@@ -1,0 +1,40 @@
+package src;
+
+public class Lapis
+{
+  String modelo;
+  String cor[6];
+  float ponta;
+  int n_cores;
+  boolean tampada;
+
+  public Lapis(String cor)
+  {
+    this.modelo = "a";
+  }
+  
+  void rabiscar() {
+      
+  }
+  void tampar() {
+      
+  }
+  void destampar() {
+    String novaCor;
+  }
+  void add_color(String new_color){
+    if (n_cores < 6){
+      n_cores++;
+    }
+    
+  }
+}
+package src;
+
+class Main {
+  public static void main(String[] args) {
+    Lapis tamanho1 = new Lapis("Grande");
+    Lapis tamanho2 = new Lapis("Medio");
+    Lapis tamanho3 = new Lapis("Pequeno"); 
+  }
+}
