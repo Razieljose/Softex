@@ -1,0 +1,35 @@
+public class Pessoa 
+{
+    private String nome;
+    private int peso;
+
+    public Pessoa(String nome, int peso) throws Exception
+    {
+        this.nome = nome;
+        set_peso(peso);
+    }
+
+    public String get_nome()
+    {
+        return this.nome;
+    }
+
+    public int get_peso()
+    {
+        return this.peso;
+    }
+
+    public void set_nome(String new_nome)
+    {
+        this.nome = new_nome;
+    }
+
+    public void set_peso(int new_peso) throws Exception
+    {
+        if (0 > new_peso || new_peso > 500)
+            throw new Exception("Peso inválido");
+        this.peso = new_peso;
+    }
+}
+
+Feito em JAVA
