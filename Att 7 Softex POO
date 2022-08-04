@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class ExemploTryCatch {
+  public static void main(String[] args) {
+    Scanner s = new Scanner(System.in);
+    try {
+      System.out.print("Digite o primeiro valor inteiro..:");
+      int primeiroNumero = s.nextInt();
+      System.out.print("Digite o segundo valor inteiro..:");
+      int segundoNumero = s.nextInt();
+
+      System.out.println(primeiroNumero + " + " + segundoNumero + " = " + (primeiroNumero + segundoNumero));
+    } catch (Exception ex) {
+      System.out.println("ERRO - O número digitado nao é inteiro!");
+    }
+  }
+}
