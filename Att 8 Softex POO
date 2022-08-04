@@ -1,0 +1,6 @@
+Padrão escolhido --> Singleton
+
+É um anti-padrão no projeto de software. Esse padrão garante que exista apenas uma instância de uma classe, mantendo um ponto de acesso global para seus objetos.
+
+
+
