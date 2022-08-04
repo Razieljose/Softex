@@ -1,0 +1,14 @@
+package br.barbearia.clientes;
+
+   public class Clientes1 {
+        String nome;
+        String endereço;
+    }
+
+
+package br.salaoEstetica.clientes;
+
+    public class Clientes2 {
+        String nome;
+        String fichaAnamnese;
+    }
