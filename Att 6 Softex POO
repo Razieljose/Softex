@@ -3,19 +3,19 @@ import java.io.ObjectOutputStream;
 
 public class NovoCliente{
 
-    FileOutputStream = new FileOutputStream("c:\ clientes.xls");
-    ObjectOutputStream = new ObjectOutputStream("clientes.xls");
-    clientes.writeObject("clientes.xls");
-    clientes.close();
+        FileOutputStream = new FileOutputStream("c:\ clientes.xls");
+        ObjectOutputStream = new ObjectOutputStream("clientes.xls");
+        clientes.writeObject("clientes.xls");
+        clientes.close();
 
 }
-
 
 import java.io.FileInputStream;
 import java.io.ObjectInputStream;
 
 public class ReadObject{
-    FileInputStream "clientes.xls"  = new FileInputStream("c:\ clientes.xls");
-    ObjectInputStream "clientes.xls" = new ObjectInputStream("clientes.xls");
-    clientes = ("clientes.xls") "clientes.xls".readObject();
-    clientes.close();
+
+        FileInputStream "clientes.xls"  = new FileInputStream("c:\ clientes.xls");
+        ObjectInputStream "clientes.xls" = new ObjectInputStream("clientes.xls");
+        clientes = ("clientes.xls") "clientes.xls".readObject();
+        clientes.close();
