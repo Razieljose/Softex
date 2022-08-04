@@ -1,0 +1,11 @@
+class Main {
+  public static void main(String[] args) {
+    String x = "Olá, Softex! Eu me chamo Raziel";
+      System.out.println(x.length());
+      System.out.println(x + ", tudo bem?");
+      System.out.println(x.contains("Softex"));
+      System.out.println(x.toUpperCase());
+  }
+}
+
+Link do replit --> https://replit.com/@RazielAraujo/Att-5-Softex-POO#Main.java
