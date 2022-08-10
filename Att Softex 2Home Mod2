@@ -1,0 +1,18 @@
+print('Consulta habilitação')
+
+rodas = int(input('Quantas rodas têm seu veículo? '))
+kilos = float(input('Quantos kilos têm seu veículo? '))
+pessoas = int(input('Quantas pessoas cabem no seu veículo? '))
+
+if rodas == 2 and rodas == 3:
+  print ('Sua habilitação será A')
+elif rodas ==4 and pessoas <=8 and kilos <=3500:
+  print('Sua habilitação será B')
+elif rodas >= 4 and kilos >= 3500 and kilos <= 6000:
+   print ('Sua habilitação será C')
+elif rodas >= 4 and kilos > 6000:
+   print ('Sua habilitação será D')
+elif rodas >= 4 and kilos >6000:
+   print ('Sua habilitação será E')
+else:
+  print('Caso não se enquadre, consulte as autoridades')
