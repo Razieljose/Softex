@@ -1,0 +1,15 @@
+alert ("Calculadora: ")
+var numero1 = parseFloat(prompt("Insira o primeiro numero: "))
+var numero2 = parseFloat(prompt("Insira o segundo numero: "))
+var numero3 = parseInt(prompt("Digite 1 para soma, 2 para subtração, 3 para divisão e 4 para multiplicação"))
+if(numero3 == 1){
+  alert("O resultado é: " + (numero1 + numero2))
+}
+else if(numero3 == 2){
+  alert("O resultado é: " + (numero1 - numero2))
+}
+else if (numero3 == 3)
+  alert("O resultado é: " + (numero1/numero2))
+else if(numero3 == 4){
+  alert("O resultado é: " + (numero1*numero2))
+}
