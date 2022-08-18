@@ -1,0 +1,27 @@
+alert ("Calculadora: ")
+var numero1 = parseFloat(prompt("Insira o primeiro numero: "))
+var numero2 = parseFloat(prompt("Insira o segundo numero: "))
+var opçãoSair = 5
+var numero3 = parseInt(prompt("Digite 1 para soma, 2 para subtração, 3 para divisão, 4 para multiplicação e 5 para encerrar o programa!"))
+
+if(numero3 == 1){
+  alert("O resultado é: " + (numero1 + numero2))
+}
+else if(numero3 == 2){
+  alert("O resultado é: " + (numero1 - numero2))
+}
+else if (numero3 == 3)
+  alert("O resultado é: " + (numero1/numero2))
+else if(numero3 == 4){
+  alert("O resultado é: " + (numero1*numero2))
+}
+else if (opçãoSair = 5){
+  alert("Programa encerrado")
+}else {
+  alert("Essa opção não existe")
+}
+
+
+  
+
+  
