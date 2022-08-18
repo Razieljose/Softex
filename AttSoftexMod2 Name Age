@@ -1,0 +1,13 @@
+cont = 0
+while cont == 0:
+  try:
+    print("Digite o seu nome: ")
+    nome = input()
+    print("Digite seu ano de nascimento, entre 1922 e 2021: ")
+    ano_nascimento = int(input())
+    print(nome)
+    print("Você têm ", 2022 - ano_nascimento, " anos.")
+    cont = 1
+  except:
+    print("Digite as informações corretas!")
+    cont = 0
