@@ -1,0 +1,33 @@
+var primeiroValor = parseInt(prompt('Digite o primeiro valor: '));
+
+do{
+var operacao = prompt('Digite a operação matemática:');
+} while(operacao!="+" && operacao!="-" && operacao!="/" && operacao!="*")
+
+var segundoValor = parseInt(prompt('Digite o segundo valor: '));
+ var resultado = 0
+
+switch(operacao){
+ case "+":
+resultado = primeiroValor+segundoValor;
+alert(resultado)
+break
+case "-":
+resultado = primeiroValor-segundoValor;
+alert(resultado)
+break
+case "/":
+resultado = primeiroValor/segundoValor; alert(resultado)
+var mod = primeiroValor % segundoValor;
+if (mod != 0)
+alert('E o resto é ' + mod);
+break
+case "*":
+resultado = primeiroValor*segundoValor;
+alert(resultado)
+break
+}
+
+
+
+Link para o replit: https://replit.com/@RazielAraujo/CalculadoraJS#index.js
