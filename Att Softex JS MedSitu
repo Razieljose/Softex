@@ -1,0 +1,24 @@
+alert("Ínicio do primeiro sistema de notas")
+var primeiraNota = parseFloat(prompt("Digite sua primeira nota: "))
+var segundaNota = parseFloat(prompt("Digite sua segunda nota: "))
+var terceiraNota = parseFloat(prompt("Digite sua terceira nota: "))
+var media = (primeiraNota+segundaNota+terceiraNota)/3
+var resultado = (media >=7) ? "Você foi APROVADO" : "Você foi REPROVADO, estude mais!";
+alert(resultado)
+alert('Fim do primeiro sistema de notas')
+alert('---------------------------------')
+alert("Ínicio do segundo sistema de notas")
+var nota1 = prompt("Digite a primeira nota: ");
+var nota2 = prompt("Digite a segunda nota: ")
+var sn = +nota1 + +nota2
+
+if (isNaN(nota1) || isNaN(nota2)) {
+    console.log("Por favor, insira apenas números!")
+} else {
+    // Supondo que a média para passar seja 7
+    var m = 21 - sn;
+    console.log(`Para passar com média 7 na terceira prova, o aluno vai precisar tirar, no mínimo: ${m}.`)
+}
+
+
+Link para o código no Replit--> https://replit.com/@RazielAraujo/Sistema-de-Notas-Softex#index.js
