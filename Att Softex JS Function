@@ -1,0 +1,25 @@
+function nomeSobrenome(){
+    alert("Raziel Jose")
+    }
+    ------------------------
+    function parOuImpar(numero){
+   if(numero%2 ==0){
+    return 'Par'
+     } else {
+       return 'Ímpar'
+  }
+}   
+      
+var resultado = parOuImpar(18)
+  alert(resultado)
+  ---------------------------
+ (a, b) => {
+  return a + b
+  }
+    (a, b) => a + b
+  
+  let a = 10
+  let b = 15
+  
+    let c = (num1, num2) => a + b
+      alert (c(a,b))
