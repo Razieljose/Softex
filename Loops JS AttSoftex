@@ -1,0 +1,24 @@
+var amigos = ["Nicolas", "Ricardo", "Natan"]
+class Celular {
+    constructor(marca, cor, modelo){
+        this.marca = marca;
+        this.cor = cor;
+        this.modelo = modelo
+    }
+}
+var celular = new Celular('Samsung','Cinza espacial', 'Galaxy S10+')
+
+function mostraArray(){
+    console.log('Os valores da array são:',amigos)
+
+}
+function listarObjetos(){
+    console.log('As propriedades do objeto são:',celular)
+}
+
+listarObjetos()
+mostraArray()
+
+
+
+link para testar o código: https://replit.com/@RazielAraujo/LoopsSoftex#index.js
