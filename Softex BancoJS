@@ -1,0 +1,24 @@
+function Banco(conta,saldo,tipoDeConta,agencia){
+    this.conta = conta
+    this.saldo = saldo
+    this.tipoDeConta = tipoDeConta
+    this.agencia = agencia
+}
+
+function BuscarSaldo(){
+    console.log(banco.saldo)
+}
+function Deposito(deposito){
+    banco.saldo = banco.saldo+deposito
+}
+function SaqueSaldo (saque){
+    banco.saldo = banco.saldo-saque
+}
+
+buscarSaldo()
+deposito(1000)
+buscarSaldo()
+saqueSaldo(100)
+buscarSaldo
+console.log(banco.conta)
+}
