@@ -1,0 +1,11 @@
+const Sequelize = require('Sequelize')
+const sequelize = new Sequelize('Softex', 'Root', '654321', {
+    host: "localhost",
+    dialect: 'mysql'
+})
+
+sequelize.authenticate().then(function(){
+    console.log('Você foi conectado com sucesso')
+}).catch(function(erro){
+    console.log('Você teve uma falha ao se conectar: '+erro)
+})
